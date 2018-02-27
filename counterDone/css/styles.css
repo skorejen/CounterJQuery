@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSans-Regular.ttf") format("ttf"),
+         url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+body, html {
+    
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+    background: black;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.numberBox {
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.numberPlaceBox {
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+hr {
+    position: fixed;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.76);
+
+}
+
+#hr1 {
+    top: 335px;
+}
+
+#hr2 {
+    top: 415px;
+}
+
+.name {
+    position: fixed;
+}
+
+.coverBox {
+    background: black;
+    
+    width: 100%;
+    position: fixed;
+    
+    
+}
+
+#coverBox1 {
+    height: 90px;
+    top: 140px;
+}
+
+#coverBox2 {
+    height: 90px;
+    top: 575px;
+}
+
+.leftRow {
+    left: 39%;
+}
+
+.leftPlace {
+    left: 51%;
+}
+
+.grayBox {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.432);
+}
+
+#grayBox1 {
+    height: 215px;
+    top: 161px;
+}
+
+#grayBox2 {
+    height: 169px;
+    top: 456px;
+}
